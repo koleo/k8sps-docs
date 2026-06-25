@@ -5,7 +5,7 @@
 1. Export the namespace as an environment variable. Replace the `<namespace>` placeholder with your value:
 
     ```bash
-    export NAMESPACE = <namespace>
+    export NAMESPACE=<namespace>
     ```
 
 2. Check the configuration of the `PerconaServerMySQL` object:

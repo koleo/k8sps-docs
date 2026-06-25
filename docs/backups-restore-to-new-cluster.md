@@ -77,7 +77,7 @@ You can export the user Secret from the source cluster and create a Secrets obje
 1. Export the namespace as an environment variable. Replace the `<namespace>` placeholder with your value:
 
     ```bash
-    export NAMESPACE = <namespace>
+    export NAMESPACE=<namespace>
     ```
 
 2. Make sure that the cluster is running. Use this command to check it:

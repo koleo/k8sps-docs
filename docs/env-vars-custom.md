@@ -95,7 +95,7 @@ Use this when you want to share the same variables across multiple clusters or u
 1. Export the namespace where your cluster is running as an environment variable. Replace `<my-namespace>` with your value:
     
     ```bash
-    export NAMESPACE = my-namespace
+    export NAMESPACE=<my-namespace>
     ```
 
 2. Create a ConfigMap file. For example, `haproxy-configmap.yaml`. Specify the variables within:
@@ -146,10 +146,10 @@ For example, you need to provide a token used by a custom sidecar container.
 
     Copy the encoded string for use in your Secret manifest
 
-2. Export the namespace where your cluster is running as an environment variable. Replace my-namespace with your value:
+2. Export the namespace where your cluster is running as an environment variable. Replace `<my-namespace>` with your value:
 
     ```bash
-    export NAMESPACE=my-namespace
+    export NAMESPACE=<my-namespace>
     ```
 
 3. Create a Secret configuration file, for example, `integration-token.yaml`. Specify your encoded value within:

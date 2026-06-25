@@ -25,7 +25,7 @@ To restore from a backup on the same cluster and namespace, do the following:
 1. Export the namespace as an environment variable. Replace the `<namespace>` placeholder with your value:
 
     ```bash
-    export NAMESPACE = <namespace>
+    export NAMESPACE=<namespace>
     ```
 
 2. Make sure that the cluster is running. Use this command to check it:

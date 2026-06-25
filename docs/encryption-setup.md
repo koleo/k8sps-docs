@@ -270,7 +270,7 @@ Now, reference the Vault Secret in the Operator Custom Resource manifest. Note t
 1. Export the namespace where the cluster is deployed as an environment variable:
 
     ```bash
-    export ps-cluster-namespace = <cluster-namespace>
+    export ps-cluster-namespace=<cluster-namespace>
     ```
 
 2. Update the cluster configuration. Since this is a running cluster, we will apply a patch.
